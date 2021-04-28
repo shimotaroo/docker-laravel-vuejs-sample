@@ -1,70 +1,13 @@
-## clone
+## 環境構築手順
 
-```
-$ git clone https://github.com/shimotaroo/docker-laravel-vue.git
-$ cd docker-laravel-vue
-```
-## .env作成
+### MacOS Intel Chip
 
-```
-$ touch .env
-```
+-[【MacOS Intel Chip】絶対に失敗しないDockerでLaravel + Vue.jsの開発環境（LEMP環境）を構築する方法〜導入編〜](https://yutaro-blog.net/2021/04/28/docker-laravel-vuejs-intel-1/)
 
-以下の通り追記
-```
-DATABASE_NAME=データベース名
-USER_NAME=ユーザー名
-PASSWORD=パスワード名
-ROOT_PASSWORD=パスワード（rootユーザー用）
-DATABASE_NAME_TEST=データベース名（テスト用）
-USER_NAME_TEST=ユーザー名（テスト用）
-PASSWORD_TEST=パスワード名（テスト用）
-```
-## Docker Image をBuild
+-[【MacOS Intel Chip】絶対に失敗しないDockerでLaravel + Vue.jsの開発環境（LEMP環境）を構築する方法〜前編〜]()
 
-```
-$ docker-compose build
-```
+-[【MacOS Intel Chip】絶対に失敗しないDockerでLaravel + Vue.jsの開発環境（LEMP環境）を構築する方法〜後編〜]()
 
-## Docker Container をUp
+### MacOS M1 Chip
 
-```
-$ docker-compose up -d
-```
-
-## src/.env作成 & 編集
-
-```
-$ cd src
-$ cp .env.example .env
-```
-
-編集する箇所
-```
-DB_CONNECTION=mysql
-DB_HOST=db
-DB_PORT=3306
-DB_DATABASE={.envのDATABASE_NAME}
-DB_USERNAME={.envのUSER_NAME}
-DB_PASSWORD={.envのPASSWORD}
-```
-
-## Composer install
-
-```
-$ cd ..
-$ docker-compose exec app bash
-$ composer install
-```
-
-## APP_KEY作成
-
-```
-$ php artisan key:generate
-```
-## Docker Container をDown
-
-```
-$ docker-compose down
-```
-
+Coming soon ...

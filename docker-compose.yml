@@ -16,7 +16,7 @@ services:
       - DB_PORT=3306
       - DB_DATABASE=${DB_NAME}
       - DB_USERNAME=${DB_USER}
-      - DB_PASSWORD=${DB_PASS}
+      - DB_PASSWORD=${DB_PASSWORD}
 
   web:
     build:
@@ -38,8 +38,8 @@ services:
     environment:
       MYSQL_DATABASE: ${DB_NAME}
       MYSQL_USER: ${DB_USER}
-      MYSQL_PASSWORD: ${DB_PASS}
-      MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASS}
+      MYSQL_PASSWORD: ${DB_PASSWORD}
+      MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD}
       TZ: 'Asia/Tokyo'
     volumes:
       - mysql-volume:/var/lib/mysql
