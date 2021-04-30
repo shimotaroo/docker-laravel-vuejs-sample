@@ -2,11 +2,11 @@
 
 ### MacOS Intel Chip
 
-- [【MacOS Intel Chip】絶対に失敗しないDockerでLaravel + Vue.jsの開発環境（LEMP環境）を構築する方法〜導入編〜](https://yutaro-blog.net/2021/04/28/docker-laravel-vuejs-intel-1/)
+- [【導入編】絶対に失敗しないDockerでLaravel + Vue.jsの開発環境（LEMP環境）を構築する方法〜MacOS Intel Chip対応〜](https://yutaro-blog.net/2021/04/28/docker-laravel-vuejs-intel-1/)
 
-- [【MacOS Intel Chip】絶対に失敗しないDockerでLaravel + Vue.jsの開発環境（LEMP環境）を構築する方法〜前編〜](https://yutaro-blog.net/2021/04/30/docker-laravel-vuejs-2/)
+- [【前編】絶対に失敗しないDockerでLaravel + Vue.jsの開発環境（LEMP環境）を構築する方法〜MacOS Intel Chip対応〜](https://yutaro-blog.net/2021/04/30/docker-laravel-vuejs-2/)
 
-- [【MacOS Intel Chip】絶対に失敗しないDockerでLaravel + Vue.jsの開発環境（LEMP環境）を構築する方法〜後編〜](https://yutaro-blog.net/2021/04/30/docker-laravel-vuejs-3/)
+- [【後編】絶対に失敗しないDockerでLaravel + Vue.jsの開発環境（LEMP環境）を構築する方法〜MacOS Intel Chip対応〜](https://yutaro-blog.net/2021/04/30/docker-laravel-vuejs-3/)
 
 ### MacOS M1 Chip
 
