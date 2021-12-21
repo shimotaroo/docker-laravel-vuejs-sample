@@ -1,5 +1,7 @@
 ## Laravel + Vue.js のDocker環境構築手順
 
+詳細な構築手順は以下の記事を参考にしてください。
+
 ### MacOS Intel Chip
 
 - [【導入編】絶対に失敗しないDockerでLaravel + Vue.jsの開発環境（LEMP環境）を構築する方法〜MacOS Intel Chip対応〜](https://yutaro-blog.net/2021/04/28/docker-laravel-vuejs-intel-1/)
